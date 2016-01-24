@@ -1,0 +1,274 @@
+@charset "utf-8";
+
+/* 
+	@名称: icon
+	@功能: 图标样式
+*/
+.icon-home:before,.icon-home-active:before,.icon-sort:before,.icon-sort-active:before,.icon-success:before,.icon-success-active:before,.icon-trend:before,.icon-trend-active:before,.icon-create:before,
+.icon-done:before,.icon-done-active:before,.icon-want:before,.icon-want-active:before,.icon-quit:before,.icon-quit-active:before,.icon-level:before,.icon-level-active:before,.icon-review:before,
+.icon-back:before,.icon-back-active:before,.icon-share:before,.icon-review-tit:before,.icon-review01:before,.icon-right:before,.icon-raiders-tit:before,.icon-more:before,.icon-level-gray:before,.icon-more-text:before,
+.icon-coms:before,.icon-like:before,.icon-like-active:before,.icon-eye:before,.icon-declare:before,.icon-done01:before,.icon-want01:before,.icon-quit01:before,.icon-done01-active:before,.icon-want01-active:before,
+.icon-quit01-active:before,.icon-wx-star:before,.icon-logo:before,.icon-home01:before,.icon-wx-top:before,.icon-tz-like:before,.icon-tz-reply:before,.icon-tz-notice:before,.icon-tz-com:before,.icon-tz-want:before,
+.icon-tz-done:before,.icon-tz-quit:before,.icon-coms-text:before,.icon-sort-top:before,.icon-qq:before,.icon-sina:before,.icon-db:before,.user-cj:before {
+	content: "";
+	background-image: url(../images/icon.png);	
+	background-size: 150px 270px;
+}
+
+/* home图标 */
+.icon-home:before {
+	background-position: 0 0px;
+}
+.icon-home-active:before {
+	background-position: 0 -27px;
+}
+
+/* 分类图标 */
+.icon-sort:before {
+	background-position: -27px 0px;
+}
+.icon-sort-active:before {
+	background-position: -27px -27px;
+}
+
+/* 赞 */
+.icon-like:before {
+	background-position: -108px -49px;
+}
+
+.icon-like-active:before {
+	background-position: -81px -135px;
+}
+
+/* 成就集图标 */
+.icon-success:before {
+	background-position: -54px 0px;
+}
+.icon-success-active:before {
+	background-position: -54px -27px;
+}
+
+/* 动态图标 */
+.icon-trend:before {
+	background-position: -81px 0px;
+}
+.icon-trend-active:before {
+	background-position: -81px -27px;
+}
+
+/* 创建成就图标 */
+.icon-create:before {
+	background-position: -108px 0;
+}
+
+/* 做过图标 */
+.icon-done:before {
+	background-position: -27px -54px;
+}
+.icon-done-active:before {
+	background-position: -27px -66px;
+}
+
+/* 想做图标 */
+.icon-want:before {
+	background-position: 0 -54px;	
+}
+.icon-want-active:before {
+	background-position: 0 -66px;
+}
+
+/* 没意思图标 */
+.icon-quit:before {
+	background-position: -15px -54px;
+}
+.icon-quit-active:before {
+	background-position: -15px -66px;
+}
+
+/* 星级图标 */
+.icon-level:before {
+	background-position: -42px -54px;
+}
+.icon-level-active:before {
+	background-position: -42px -66px;
+}
+.icon-level-gray:before {
+	background-position: -96px -96px;
+}
+
+/* 评论图标 */
+.icon-review:before,.icon-coms:before {
+	background-position: -54px -54px;
+}
+
+/* 返回按钮 */
+.icon-back:before{
+	background-position: -81px -54px;
+}
+.icon-back-active:before {
+	background-position: -116px -135px;	
+}
+
+/* 分享按钮 */
+.icon-share:before {
+	background-position: -27px -81px;	
+}
+
+/* 用户点评标题图标 */
+.icon-review01:before {
+	background-position: 0 -81px;
+}
+
+/* 用户点评图标 */
+.icon-review-tit:before {
+	background-position: -125px -81px;
+}
+
+/* 更多图标 */
+.icon-right:before {
+	background-position: -54px -81px;	
+}
+
+/* 更多攻略标题图标 */
+.icon-raiders-tit:before {
+	background-position: -108px -81px;
+}
+
+/* 更多图标 */
+.icon-more:before {
+	background-position: -108px -103px;
+}
+
+/* 查看更多文字 */
+.icon-more-text:before {
+	background-position: -81px -81px;	
+}
+
+/* 眼睛图标 */
+.icon-eye:before {
+ 	background-position: -81px -96px;
+ }
+
+/* 表态墙 */
+.icon-declare:before {
+	background-position: 0px -108px;
+}
+/* 评论页 */
+.review-tit .icon-declare:before {
+	background-size: 155px 275px;
+	background-position: 0px -110px;
+}
+
+/* 三种图标高亮的另一种大小 */
+.icon-done01-active:before,.icon-want01-active:before,.icon-quit01-active:before {
+	background-size: 200px 360px;
+}
+/* 做过白色图标 */
+.icon-done01:before {
+	background-position: -16px -108px;
+}
+.icon-done01-active:before {
+	background-position:-36px -88px ;
+}
+
+/* 想做白色图标 */
+.icon-want01:before {
+	background-position: -32px -108px;
+}
+.icon-want01-active:before {
+	background-position: 0 -88px;
+}
+
+/* 没兴趣白色图标 */
+.icon-quit01:before {
+	background-position: -48px -108px;
+}
+.icon-quit01-active:before {
+	background-position: -20px -88px;
+}
+
+/* 微信页面五角星 */
+.icon-wx-star:before {
+	background-position: -64px -108px;
+}
+
+/* 微信文字logo */
+.icon-logo:before {
+	background-position: 0 -123px;
+}
+
+/* 微信页面home图标 */
+.icon-home01:before {
+	background-position: -81px -108px;
+}
+
+/* 微信浏览器打开箭头 */
+.icon-wx-top:before {
+	background-position: -54px -123px;
+}
+
+/* 通知页面点赞图标 */
+.icon-tz-like:before {
+	background-position: 0 -162px;
+}
+
+/* 通知页面回复图标 */
+.icon-tz-reply:before {
+	background-position: -27px -162px;
+}
+
+/* 通知页面通知图标 */
+.icon-tz-notice:before {
+	background-position: -54px -162px;
+}
+
+/* 通知页面点评图标 */
+.icon-tz-com:before {
+	background-position: 0 -189px;
+}
+
+/* 通知页面想做图标 */
+.icon-tz-want:before {
+	background-position: -27px -189px;
+}
+
+/* 通知页面做过图标 */
+.icon-tz-done:before {
+	background-position: -54px -189px;
+}
+
+/* 通知页面放弃图标 */
+.icon-tz-quit:before {
+	background-position: -81px -189px;
+}
+
+/* 评论页面评论图标 */
+.icon-coms-text:before {
+	background-position: -99px -167px;
+}
+
+/* 成就分类页面图标 */
+.icon-sort-top:before {
+	background-position: -81px -168px;
+}
+
+/* 登录页面QQ */
+.icon-qq:before {
+    background-position: 0 -216px;
+}
+
+/* 登录页面新浪 */
+.icon-sina:before {
+    background-position: -30px -216px;
+}
+
+/* 登录页面豆瓣 */
+.icon-db:before {
+    background-position: -60px -216px;
+}
+
+/* 个人中心页面创建 */
+.user-cj:before {
+    background-position: -90px -216px;
+}
+

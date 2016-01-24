@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Context-Type" content="text/html" charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta content="telephone=no, address=no" name="format-detection">
+    <meta name="author" content="BeZuo">
+    <title>反馈</title>
+    <link rel="stylesheet" type="text/css" href="../Style/base.css" />
+    <link rel="stylesheet" type="text/css" href="../Style/icon.css" />
+    <link rel="stylesheet" type="text/css" href="../Style/layout.css" />
+    <link rel="stylesheet" type="text/css" href="../Style/zepto.alert.css" />
+</head>
+<body >
+<section class="section center-box">
+    <!-- header -->
+    <header class="user-header">
+        <a class="fn-left back-left" data-params="user.html"></a>
+        <h1>反馈</h1>
+    </header>
+    <!-- /header -->
+
+    <!-- article -->
+    <article class="article">
+        <div class="fb">
+            <ul class="fn-clear">
+                <li class="fn-left"><a class="fb-black fb-active">建议</a></li>
+                <li class="fn-left"><a class="fb-black">出错</a></li>
+                <li class="fn-left"><a class="fb-black">求助</a></li>
+            </ul>
+        </div>
+        <form action="fBSuccess.html" >
+	        <div class="fb-conten">
+	            <textarea class="text-jy" placeholder="请简要描述你的问题和意见"></textarea>
+	        </div>
+	        
+	        <div class="fb-inp">
+	            <input type="tel" placeholder="请输入您的QQ号" value="" maxLength="11" />
+	        </div>
+	        
+	        <div class="black" style="margin: 20px 15px 0;">
+	            <input type="submit" class="btn-login"  value="提交" style="margin-top: 0;" />
+	        </div>
+        </form>
+    </article>
+    <!-- /article -->
+</section>
+
+<script type="text/javascript" src="../Js/zepto.min.js"></script>
+<script type="text/javascript" src="../Js/zepto.alert.js"></script>
+<script type="text/javascript" src="../Js/base.js" ></script>
+<script type="text/javascript">
+$(function(){
+    $(".fb-black").click(function(){
+    	$(".fb-black").removeClass("fb-active");
+        $(this).addClass("fb-active");
+    });    
+        
+   $(".btn-login").on("click",function(){var b=($(".text-jy").val(),$(".fb-inp input").val());return""==$(".text-jy").val()?($.dialog({content:"\u4eb2\uff01\u60a8\u5c1a\u672a\u586b\u5199\u4efb\u4f55\u5185\u5bb9\u54e6!",title:"alert",time:2e3}),!1):b.length<5||isNaN(b)?($.dialog({content:"\u4eb2\uff01\u8bf7\u8f93\u5165\u6b63\u786eQQ\u7684\u53f7\uff01",title:"alert",time:2e3}),!1):void 0});
+});
+</script>
+</body>
+</html>

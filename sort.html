@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Context-Type" content="text/html" charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta content="telephone=no, address=no" name="format-detection">
+<meta name="author" content="BeZuo">
+<title>BeZuo</title>
+<link rel="stylesheet" type="text/css" href="Style/base.css">
+<link rel="stylesheet" type="text/css" href="Style/icon.css">
+<link rel="stylesheet" type="text/css" href="Style/layout.css">
+</head>
+
+<body>
+<section class="section" style="background-color: #fff;">
+	<!-- header -->
+	<header class="top-fixed top-info">
+		<a class="fn-left back-return" data-params="detection.html"></a>
+		<h1 style="color: #333;">生活</h1>
+	</header>
+	<!-- /header -->
+	
+	<!-- article -->
+	<article class="article pb-50" style="padding-top: 41px;">
+		<div class="sort-box">
+			<ul>
+				<li class="border-btm-1px" data-params="">
+					<div>						
+						<span>家人</span>
+						<p>共592个成就</p>
+					</div>
+				</li>
+				
+				<li class="border-btm-1px" data-params="">
+					<div>						
+						<span>周末</span>
+						<p>共592个成就</p>
+					</div>
+				</li>
+				
+				<li class="border-btm-1px" data-params="">
+					<div>
+						<span>技能</span>
+						<p>共592个成就</p>
+					</div>
+				</li>
+				
+				<li class="border-btm-1px" data-params="">
+					<div>
+						<span>女朋友</span>
+						<p>共592个成就</p>
+					</div>
+				</li>
+				
+				<li class="border-btm-1px" data-params="">
+					<div>
+						<span>烹饪</span>
+						<p>共592个成就</p>
+					</div>
+				</li>
+				
+				<li class="border-btm-1px" data-params="">
+					<div>
+						<span>居家</span>
+						<p>共592个成就</p>
+					</div>
+				</li>
+				
+				<li class="border-btm-1px" data-params="">
+					<div>
+						<span>音乐会</span>
+						<p>共592个成就</p>
+					</div>
+				</li>
+				
+				<li class="border-btm-1px" data-params="">
+					<div>
+						<span>料理</span>
+						<p>共592个成就</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</article>
+	<!-- /article -->
+	
+	<!-- footer -->
+	<footer class="footer">
+		<ul>
+			<li><a data-params="Index.html" class="icon-home"><span>首页</span></a></li>
+			
+			<li><a data-params="detection.html" class="icon-sort-active cur"><span>发现</span></a></li>
+			
+			<li><a data-params="#" class="icon-create"></a></li>
+			
+			<li><a data-params="../Content/notice.html" class="icon-trend"><span>动态</span></a></li>
+			
+			<li><a data-params="userCenter/user.html" class="icon-success"><span>我</span></a></li>
+		</ul>
+	</footer>
+	<!-- /footer -->
+</section>
+<script type="text/javascript" src="Js/zepto.min.js" ></script>
+<script type="text/javascript">
+	$(".sort-box li").on("touchstart", function(){
+		$(this).addClass("li-active").siblings().removeClass("li-active");
+	});
+</script>
+<script type="text/javascript" src="Js/base.js" ></script>
+</body>
+</html>

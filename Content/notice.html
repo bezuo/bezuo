@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Context-Type" content="text/html" charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta content="telephone=no, address=no" name="format-detection">
+<meta name="author" content="BeZuo">
+<title>通知</title>
+<link rel="stylesheet" type="text/css" href="../Style/base.css">
+<link rel="stylesheet" type="text/css" href="../Style/icon.css">
+<link rel="stylesheet" type="text/css" href="../Style/layout.css">
+</head>
+
+<body>
+<section class="section" style="background-color: #fff;">
+	
+	<header class="top-fixed noticle-top">
+		<ul class="fn-clear">
+			<li class="cur"><a data-params="notice.html">通知</a></li>
+			<li><a class="red-dot" data-params="dynamic.html">动态</a></li>
+		</ul>
+	</header>
+	
+	<!-- article -->
+	<article class="article pb-50 noticle-box" style="padding-top: 41px;">
+		<section class="m15 noticle-html">
+			<!-- 有人点赞 -->
+			<div class="border-btm-1px n-cont" data-params="review.html">
+				<div class="n-cont-t mb-15">
+					<span class="fn-left " data-params="../userCenter/user.html"><img src="../images/user_01.png" /></span>
+					<div class="n-cont-name">
+						<span class="red-dot"><em data-params="../userCenter/user.html">布鲁斯姥爷</em>赞了你的点评</span>
+						<p>10分钟前</p>
+					</div>
+				</div>
+				
+				<div class="n-cont-btm">
+					<span class="tz-like icon-tz-like"></span>				
+					<div class="n-cont-btm-c">
+						<h3 class="text-line1">去台湾九份看日落看呀看呀看日落哦</h3>
+						<p class="text-line1">由于是第二次去台湾（第一次实在2010年初跟团环岛游），所以国人扎堆的大景点都没有去。</p>
+					</div>
+				</div>				
+			</div>
+			<!-- /有人点赞 -->
+
+			<!-- 有人回复 -->
+			<div class="border-btm-1px n-cont" data-params="review.html">
+				<div class="n-cont-t mb-15">
+					<span class="fn-left " data-params="../userCenter/user.html"><img src="../images/wx_user01.jpg" /></span>
+					<div class="n-cont-name"> 
+						<span class="red-dot"><em data-params="../userCenter/user.html">AliceWrong</em>回复了你创建的点评</span>
+						<p>2小时前</p>
+					</div>
+				</div>
+				
+				<div class="reply-box">
+					<p>写得很棒，我打算端午假期去台湾游，但是总共只有五天时间，纠结要不要去九份，求推荐</p>
+				</div>
+				
+				<div class="n-cont-btm">
+					<span class="tz-reply icon-tz-reply"></span>
+					<div class="n-cont-btm-c">
+						<h3>去台湾九份看日落</h3>
+						<p class="text-line1">由于是第二次去台湾（第一次实在2010年初跟团环岛游），所以国人扎堆的大景点都没有去。</p>
+					</div>
+				</div>
+			</div>
+			<!-- /有人回复-->
+			
+			<!-- 通知 -->
+			<div class="border-btm-1px n-cont">
+				<div class="n-cont-t mb-15">
+					<span class="fn-left " data-params="../userCenter/user.html"><img src="../images/system.jpg" /></span>
+					<div class="n-cont-name"> 
+						<span class="red-dot"><em data-params="../userCenter/user.html">必做团队</em>通知</span>
+						<p>2小时前</p>
+					</div>
+				</div>
+				
+				<div class="n-cont-btm">
+					<span class="tz-notice icon-tz-notice"></span>
+					<div class="n-cont-btm-c">
+						<p class="text-line2">由于您创建的「我要去炸学校」违反相关法律法规，审核未通过。</p>
+					</div>
+				</div>
+			</div>
+			<!-- /通知 -->
+			
+			<!-- 有人回复 -->
+			<div class="border-btm-1px n-cont" data-params="review.html">
+				<div class="n-cont-t mb-15">
+					<span class="fn-left " data-params="../userCenter/user.html"><img src="../images/wx_user07.jpg" /></span>
+					<div class="n-cont-name">  
+						<span class="red-dot"><em data-params="../userCenter/user.html">我的名字就是十个字的</em>回复了你的评论</span>
+						<p>2小时前</p>
+					</div>
+				</div>
+				
+				<div class="n-cont-btm">
+					<span class="tz-reply icon-tz-reply"></span>
+					<div class="n-cont-btm-c">
+						<p class="text-line2">九份在我心目中是台湾旅行必须去的地方，在那里你既能去猴硐感受下台湾煤矿的历史，去感受地...</p>
+					</div>
+				</div>
+			</div>
+			<!-- /有人回复 -->
+		</section>
+	</article>
+	
+	<!-- footer -->
+	<footer class="footer">
+		<ul>
+			<li><a data-params="../Index.html" class="icon-home"><span>首页</span></a></li>
+			
+			<li><a data-params="../detection.html" class="icon-sort"><span>发现</span></a></li>
+			
+			<li><a data-params="#" class="icon-create"></a></li>
+			
+			<li><a data-params="notice.html" class="icon-trend-active cur"><span>动态</span></a></li>
+			
+			<li><a data-params="../userCenter/user.html" class="icon-success"><span>我</span></a></li>
+		</ul>
+	</footer>
+	<!-- /footer -->
+</section>
+<script type="text/javascript" src="../Js/zepto.min.js" ></script>
+<script type="text/javascript" src="../Js/base.js" ></script>
+</body>
+</html>
